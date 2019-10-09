@@ -5,9 +5,13 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
+
+import com.orhanobut.hawk.Hawk;
 
 public class DetailPemesanan extends AppCompatActivity {
 
@@ -30,6 +34,29 @@ public class DetailPemesanan extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        TextView nama = findViewById(R.id.textView10);
+        TextView umurlokasi = findViewById(R.id.textView11);
+        TextView harga = findViewById(R.id.textView12);
+        TextView hargasebelum = findViewById(R.id.textView35);
+        TextView total = findViewById(R.id.textView29);
+        TextView detail_nama = findViewById(R.id.textView34);
+
+        nama.setText(Hawk.get("nama").toString());
+        umurlokasi.setText(Hawk.get("umur").toString()+" Bulan - "+Hawk.get("lokasi"));
+        harga.setText(Hawk.get("harga").toString());
+        hargasebelum.setText(Hawk.get("harga").toString());
+        detail_nama.setText("1 Ekor "+Hawk.get("nama").toString());
+
+        if(Hawk.get("umur").toString().equals("3")){
+            total.setText("Rp 628.000");
+        }else if(Hawk.get("umur").toString().equals("4")){
+            total.setText("Rp 900.000");
+        }else{
+            total.setText("Rp 1.250.000");
+        }
+
+        Log.d("test", Hawk.get("umur").toString());
 
     }
 

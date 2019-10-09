@@ -41,6 +41,7 @@ public class TernakAdapter extends RecyclerView.Adapter<TernakAdapter.TernakView
                 Intent i = new Intent(mContext, DetailTernakSaya.class);
                 i.putExtra("nama", dataList.get(position).getNama());
                 i.putExtra("umurlokasi", dataList.get(position).getUmur()+" Bulan - "+dataList.get(position).getLokasi());
+                i.putExtra("terjual", "");
                 mContext.startActivity(i);
             }
         });
