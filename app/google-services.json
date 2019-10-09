@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "848222197812",
+    "firebase_url": "https://manawa-adc67.firebaseio.com",
+    "project_id": "manawa-adc67",
+    "storage_bucket": "manawa-adc67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848222197812:android:95e71010f4410da9a65261",
+        "android_client_info": {
+          "package_name": "com.example.manawa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848222197812-6p4u5i7mdvqkll0ibl3cavd1utq80mgm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.manawa",
+            "certificate_hash": "1b79eb4be3e4604845a6c633b8d3dbee1b943337"
+          }
+        },
+        {
+          "client_id": "848222197812-c5sch3e9so8cl6om9d914iamdo6o98co.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX3DNKf2Az0YGKuuKxvK5z7hBUR9KNPN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848222197812-c5sch3e9so8cl6om9d914iamdo6o98co.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848222197812:android:965eb5d14cb072c6",
+        "android_client_info": {
+          "package_name": "id.web.faathir.belajarfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848222197812-c5sch3e9so8cl6om9d914iamdo6o98co.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX3DNKf2Az0YGKuuKxvK5z7hBUR9KNPN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848222197812-c5sch3e9so8cl6om9d914iamdo6o98co.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848222197812:android:e840b8f67c41b7b6",
+        "android_client_info": {
+          "package_name": "id.web.manawa.manawa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848222197812-463inudi4qnqqgs6iua9mcg1vkiot091.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.web.manawa.manawa",
+            "certificate_hash": "ffe66f9f8c4404a0fc1600785a69c506ea6ea2ec"
+          }
+        },
+        {
+          "client_id": "848222197812-2c5jpsntj8ufdbng5srcvkdd74l4a34c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.web.manawa.manawa",
+            "certificate_hash": "1d9d8848aaa3ead72b75b533d3e34b1faa51f524"
+          }
+        },
+        {
+          "client_id": "848222197812-c5sch3e9so8cl6om9d914iamdo6o98co.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX3DNKf2Az0YGKuuKxvK5z7hBUR9KNPN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848222197812-c5sch3e9so8cl6om9d914iamdo6o98co.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
