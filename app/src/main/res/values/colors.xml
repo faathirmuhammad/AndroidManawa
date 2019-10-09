@@ -2,9 +2,10 @@
 <resources>
     <color name="colorPrimary">#39b54a</color>
     <color name="colorPrimaryDark">#34a043</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccent">#FFFF8800</color>
 
 <!--    Tambahan-->
     <color name="colorPrimaryLighter">#39b54a</color>
     <color name="agakgelap">#323232</color>
+    <color name="putih">#FFFF</color>
 </resources>

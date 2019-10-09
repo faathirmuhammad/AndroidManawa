@@ -8,6 +8,9 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
+
+import com.orhanobut.hawk.Hawk;
 
 public class Pembayaran extends AppCompatActivity {
 
@@ -29,6 +32,17 @@ public class Pembayaran extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        TextView hargatotal = findViewById(R.id.textView30);
+        int random = (int)(Math.random()*300)+100;
+        if(Hawk.get("umur").toString().equals("3")){
+            hargatotal.setText("Rp 628."+String.valueOf(random));
+        }else if(Hawk.get("umur").toString().equals("4")){
+            hargatotal.setText("Rp 900."+String.valueOf(random));
+        }else{
+            hargatotal.setText("Rp 1.250."+String.valueOf(random));
+        }
+
     }
 
     @Override

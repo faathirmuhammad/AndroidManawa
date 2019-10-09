@@ -109,8 +109,7 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Name" />
+                android:inputType="textPersonName" />
 
             <TextView
                 android:id="@+id/textView42"

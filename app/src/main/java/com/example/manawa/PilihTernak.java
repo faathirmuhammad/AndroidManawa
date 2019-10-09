@@ -10,6 +10,8 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.orhanobut.hawk.Hawk;
+
 public class PilihTernak extends AppCompatActivity {
 
     CardView card;
@@ -26,10 +28,45 @@ public class PilihTernak extends AppCompatActivity {
         getSupportActionBar().setTitle("Pilih Kambing");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        Hawk.init(getApplicationContext()).build();
+
+        //KAMBING NOMOR 1
         card = findViewById(R.id.cardView5);
         card.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Hawk.put("nama", "Kambing Kacang");
+                Hawk.put("umur", "3");
+                Hawk.put("lokasi", "Dayeuhkolot");
+                Hawk.put("harga", "Rp 578.000");
+                Intent intent = new Intent(PilihTernak.this, DetailTernak.class);
+                startActivity(intent);
+            }
+        });
+
+        //KAMBING NOMOR 2
+        CardView kambingdua = findViewById(R.id.cardView10);
+        kambingdua.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Hawk.put("nama", "Kambing Etawa");
+                Hawk.put("umur", "4");
+                Hawk.put("lokasi", "Majalengka");
+                Hawk.put("harga", "Rp 850.000");
+                Intent intent = new Intent(PilihTernak.this, DetailTernak.class);
+                startActivity(intent);
+            }
+        });
+
+        //KAMBING NOMOR 3
+        CardView kambingtiga = findViewById(R.id.cardView11);
+        kambingtiga.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Hawk.put("nama", "Kambing Kacang");
+                Hawk.put("umur", "6");
+                Hawk.put("lokasi", "Majalengka");
+                Hawk.put("harga", "Rp 1.200.000");
                 Intent intent = new Intent(PilihTernak.this, DetailTernak.class);
                 startActivity(intent);
             }

@@ -73,7 +73,7 @@
                 android:layout_height="19dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginBottom="32dp"
-                android:text="3 Bulan - Dayeuhkolot"
+                android:text="12 Bulan - Dayeuhkolot"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/constraintLayout3" />
 
@@ -89,4 +89,13 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerTernak"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView5" />
 </androidx.constraintlayout.widget.ConstraintLayout>
